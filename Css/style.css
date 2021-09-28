@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Utility class */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background: rgba(116, 116, 77, 0.5);
+  line-height: 6px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+/* Header */
+#head{
+  background: rgba(51, 51, 51,0.8);
+  color: white;
+  width: 85%;
+  padding: 1.2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+}
+#head ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head ul li{
+  padding: 1rem 1.5rem ;
+}
+.text-primary{
+  color: greenyellow;
+}
+#head ul li:hover{
+  background: greenyellow;
+  border-radius: 10px;
+}
+
+/* Section showcase */
+#showcase{
+  background: url(../picks/showcase.jpg) no-repeat center center/cover;
+  height: 70vh;
+}
+#showcase .showcase-content{
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.showcase-content h2{
+  padding-bottom: 4rem;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+}
+/* categories */
+#categories{
+
+}
+.catg-content{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap ;
+}
+.catg-content img:hover{
+  background-color: black;
+  height: 100%;
+}
+
+.catg-content .img-content1{
+  background: url('../picks/womens.jpg') no-repeat center center/cover;
+  height: 30vh;
+  width: 45vh;
+  border-radius: 30px;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content2{
+  background: url('../picks/mens.jpg') no-repeat center center/cover;
+  height: 30vh;
+  border-radius: 30px;
+  width: 45vh;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content3{
+  background: url('../picks/kids.jpg') no-repeat center center/cover;
+  height: 30vh;
+  width: 45vh;
+  border-radius: 30px;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content4{
+  background: url('../picks/electronics.jpeg') no-repeat center center/cover;
+  height: 30vh;
+  width: 45vh;
+  border-radius: 30px;
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catg-content .img-content3 h1,.catg-content .img-content2 h1,
+.catg-content .img-content1 h1,.catg-content .img-content4 h1{
+  background: rgba(173, 255, 47,0.4);
+  padding: 1rem ;
+  border-radius: 20px;
+  color: black;
+  margin: 1rem 1rem;
+}
+
+/* Footer */
+#foot{
+  background: #333;
+  padding: 3rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#foot h2{
+  font-size: 1.1rem;
+}
+
+
